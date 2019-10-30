@@ -167,6 +167,10 @@ img {
   width: 100%;
 }
 
+.flex {
+  display:flex;
+}
+
 .navbar {
   align-items: center;
   border-bottom: 1px solid rgb(221, 221, 221);
@@ -187,6 +191,7 @@ img {
   height: 20px;
   position: relative;
   width: 40px;
+  margin-left: 8px;
 }
 
 .toggle {
@@ -201,6 +206,7 @@ img {
 
 .toggled {
   left: 18px;
+  background: #9e4f00;
 }
 
 .charts {
